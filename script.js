@@ -32,7 +32,7 @@ const rollDice = function () {
   dice.style.display = 'block';
 
   diceNumber = Math.trunc(Math.random() * 6 + 1);
-  dice.setAttribute('src', `dice-${diceNumber}.png`);
+  dice.setAttribute('src', `./img/dice-${diceNumber}.png`);
 };
 
 rollBtn.addEventListener('click', () => {
